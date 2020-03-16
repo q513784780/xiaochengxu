@@ -1,0 +1,57 @@
+{
+  "pages": [
+    "pages/maio/miao",
+    
+    "pages/my/my",
+    "pages/xiangqing/xiaoqing",
+    "pages/fen/fen",
+    "pages/teng/teng",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/car/car"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "腾汇居",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#FF0000",
+    "list": [
+      {
+        "pagePath": "pages/teng/teng",
+        "text": "腾汇居",
+        "iconPath": "tab/shou1.png",
+        "selectedIconPath": "tab/shou.png"
+      },
+      {
+        "pagePath": "pages/fen/fen",
+        "text": "分类",
+        "iconPath": "tab/fen1.png",
+        "selectedIconPath": "tab/fen.png"
+      },
+      {
+        "pagePath": "pages/maio/miao",
+        "text": "秒杀区",
+        "iconPath": "tab/miao1.png",
+        "selectedIconPath": "tab/miao.png"
+      },
+      {
+        "pagePath": "pages/car/car",
+        "text": "购物车",
+        "iconPath": "tab/car1.png",
+        "selectedIconPath": "tab/car.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "tab/my1.png",
+        "selectedIconPath": "tab/my.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

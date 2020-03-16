@@ -1,0 +1,125 @@
+<view class="content">
+      <view class='left'>
+        <view class="{{flag==0?'select':'normal'}}" id='0' bindtap='switchNav'>
+       <text>阿尼玛-\n新古典</text>
+        </view>
+        <view class="{{flag==1?'select':'normal'}}" id='1' bindtap='switchNav'> <text>巴宝莉-\n意式极简轻奢</text></view>
+        <view class="{{flag==2?'select':'normal'}}" id='2' bindtap='switchNav'> <text>卡地亚-\n新古典</text></view>
+        <view class="{{flag==3?'select':'normal'}}" id='3' bindtap='switchNav'> <text>迪奥-\n港式轻奢</text></view>
+        <view class="{{flag==4?'select':'normal'}}" id='4' bindtap='switchNav'> <text>路易威登-\n欧式法式</text></view>
+      </view>
+      <view class='right'>
+        <view class='category'>
+          <swiper current='{{currentTab}}' style='height:500px' vertical="{{true}}">
+            <swiper-item id='0' catchtouchmove="stopTouchMove">
+             <view class="con" wx:for="{{arr}}" data-xia="{{index}}">
+             <image src="{{item.imgurl}}"></image>
+             <view>
+                <text class="big">{{item.title}}</text>
+                <view>
+                  <text class="small">{{item.titel}} </text>
+                </view>
+                <view>
+      <view class="hong"><text decode="{{true}}">{{item.price}}&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;      </text><image class="img2" src="http://xiaowangjin.gz01.bdysite.com/img/buy.png"></image></view>
+                </view>
+                 <view>
+                 
+                </view>
+             </view>
+             
+             </view>
+            </swiper-item>
+            <swiper-item id='1' catchtouchmove="stopTouchMove">
+              <view class="con" wx:for="{{arr}}" data-xia="{{index}}">
+             <image src="{{item.imgurl}}"></image>
+             <view>
+                <text class="big">{{item.title}}</text>
+                <view>
+                  <text class="small">{{item.titel}} </text>
+                </view>
+                <view>
+      <view class="hong"><text decode="{{true}}">{{item.price}}&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;      </text><image class="img2" src="http://xiaowangjin.gz01.bdysite.com/img/buy.png"></image></view>
+                </view>
+                 <view>
+                 
+                </view>
+             </view>
+             
+             </view>
+            </swiper-item>
+            <swiper-item id='2' catchtouchmove="stopTouchMove">
+              <view class="con" wx:for="{{arr}}" data-xia="{{index}}">
+             <image src="{{item.imgurl}}"></image>
+             <view>
+                <text class="big">{{item.title}}</text>
+                <view>
+                  <text class="small">{{item.titel}} </text>
+                </view>
+                <view>
+      <view class="hong"><text decode="{{true}}">{{item.price}}&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;      </text><image class="img2" src="http://xiaowangjin.gz01.bdysite.com/img/buy.png"></image></view>
+                </view>
+                 <view>
+                 
+                </view>
+             </view>
+             
+             </view>
+            </swiper-item>
+            <swiper-item id='3' catchtouchmove="stopTouchMove">
+              <view class="con" wx:for="{{arr}}" data-xia="{{index}}">
+             <image src="{{item.imgurl}}"></image>
+             <view>
+                <text class="big">{{item.title}}</text>
+                <view>
+                  <text class="small">{{item.titel}} </text>
+                </view>
+                <view>
+      <view class="hong"><text decode="{{true}}">{{item.price}}&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;      </text><image class="img2" src="http://xiaowangjin.gz01.bdysite.com/img/buy.png"></image></view>
+                </view>
+                 <view>
+                 
+                </view>
+             </view>
+             
+             </view>
+            </swiper-item>
+            <swiper-item id='4' catchtouchmove="stopTouchMove">
+              <view class="con" wx:for="{{arr}}" data-xia="{{index}}">
+             <image src="{{item.imgurl}}"></image>
+             <view>
+                <text class="big">{{item.title}}</text>
+                <view>
+                  <text class="small">{{item.titel}} </text>
+                </view>
+                <view>
+      <view class="hong"><text decode="{{true}}">{{item.price}}&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;      </text><image class="img2" src="http://xiaowangjin.gz01.bdysite.com/img/buy.png"></image></view>
+                </view>
+                 <view>
+                 
+                </view>
+             </view>
+             
+             </view>
+            </swiper-item>
+            <swiper-item id='5' catchtouchmove="stopTouchMove">
+              <view class="con" wx:for="{{arr}}" data-xia="{{index}}">
+             <image src="{{item.imgurl}}"></image>
+             <view>
+                <text class="big">{{item.title}}</text>
+                <view>
+                  <text class="small">{{item.titel}} </text>
+                </view>
+                <view>
+      <view class="hong"><text decode="{{true}}">{{item.price}}&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;      </text><image class="img2" src="http://xiaowangjin.gz01.bdysite.com/img/buy.png"></image></view>
+                </view>
+                 <view>
+                 
+                </view>
+             </view>
+             
+             </view>
+            </swiper-item>
+          </swiper>
+        </view>
+      </view>
+    </view>

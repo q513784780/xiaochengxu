@@ -1,0 +1,57 @@
+.content {
+  display: flex;
+  flex-direction: row;
+}
+.left {
+  width: 30%;
+  font-size: 10px;
+  /* height: 1500rpx; */
+  background-color:  #F4F4F4;
+  position: fixed;
+  left: 0
+}
+.left view {
+  text-align: center;
+  height: 150rpx;
+  line-height: 75rpx;
+}
+.select {
+  background-color: #ffffff;
+  border-left: 2px solid #FF0000;
+  font-weight: bold;
+  color: #000000;
+}
+.normal {
+  background-color: #F4F4F4;
+  border-bottom: 1px solid #f2f2f2;
+}
+.right {
+  width: 70%;
+  height: 1000px;
+  margin-left: 30%;
+}
+
+
+.con{
+  display: flex;
+}
+.con image{
+  width: 250rpx;
+  height: 250rpx;
+}
+.big{
+  font-size: 25rpx;
+  font-weight: 900;
+}
+.small{
+  font-size: 16rpx;
+  margin: 60rpx 0;
+}
+.hong{
+  color: red;
+}
+.hong image{
+  width: 50rpx;
+  height: 50rpx;
+}
+

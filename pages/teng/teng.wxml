@@ -1,0 +1,87 @@
+<view class="head">
+  <image src="http://xiaowangjin.gz01.bdysite.com/img/1.jpg"></image>
+</view>
+
+<view class="nav">
+  <image src="http://xiaowangjin.gz01.bdysite.com/img/1-1.gif"></image>
+  <image src="http://xiaowangjin.gz01.bdysite.com/img/2-1.gif"></image>
+  <image src="http://xiaowangjin.gz01.bdysite.com/img/3-1.gif"></image>
+</view>
+
+
+
+<!-- 轮播图 -->
+<view>
+  <swiper indicator-dots="true"	class="banner"indicator-active-color="#FF0000" autoplay="true">
+    <swiper-item>
+      <image src="http://xiaowangjin.gz01.bdysite.com/img/2.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="http://xiaowangjin.gz01.bdysite.com/img/3.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="http://xiaowangjin.gz01.bdysite.com/img/4.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="http://xiaowangjin.gz01.bdysite.com/img/5.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="http://xiaowangjin.gz01.bdysite.com/img/6.jpg"></image>
+    </swiper-item>
+  </swiper>
+</view>
+
+<!-- 迪奥的那排 -->
+<view class="kouhong">
+  <image src="http://xiaowangjin.gz01.bdysite.com/img/diao.gif"></image>
+  <image src="http://xiaowangjin.gz01.bdysite.com/img/babaoli.gif"></image>
+  <image src="http://xiaowangjin.gz01.bdysite.com/img/amani.gif"></image>
+  <image src="http://xiaowangjin.gz01.bdysite.com/img/kadili.gif"></image>
+  <image src="http://xiaowangjin.gz01.bdysite.com/img/fendi.gif"></image>
+  <image src="http://xiaowangjin.gz01.bdysite.com/img/guchi.gif"></image>
+  <image src="http://xiaowangjin.gz01.bdysite.com/img/kaizhuo.gif"></image>
+  <image src="http://xiaowangjin.gz01.bdysite.com/img/luyi.gif"></image>
+  <image src="http://xiaowangjin.gz01.bdysite.com/img/aimashi.gif"></image>
+  <image src="http://xiaowangjin.gz01.bdysite.com/img/fansizhe.gif"></image>
+</view>
+
+
+
+<!-- 轮播图 -->
+<view>
+  <swiper indicator-dots="true"	class="banner"indicator-active-color="#FF0000" autoplay="true">
+    <swiper-item>
+      <image src="http://xiaowangjin.gz01.bdysite.com/img/7.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="http://xiaowangjin.gz01.bdysite.com/img/8.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="http://xiaowangjin.gz01.bdysite.com/img/9.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="http://xiaowangjin.gz01.bdysite.com/img/10.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="http://xiaowangjin.gz01.bdysite.com/img/11.jpg"></image>
+    </swiper-item>
+  </swiper>
+</view>
+
+
+<view class="hot" >
+  <image src="http://xiaowangjin.gz01.bdysite.com/img/hot.gif"></image>
+</view>
+
+<view class="show">
+  <view class="box" wx:for="{{arr}}" data-xia="{{index}}">
+    <view class="nei">
+      <image  class="img1" src="{{item.imgurl}}" bindtap="fun"></image>
+      <view class="gang">{{item.title}}</view>
+      <view class="hong"><text decode="{{true}}">{{item.price}}&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;      </text><image class="img2" src="http://xiaowangjin.gz01.bdysite.com/img/buy.png"></image></view>
+      <view>
+        
+      </view>
+    </view>
+  </view>
+</view>

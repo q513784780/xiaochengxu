@@ -1,0 +1,18 @@
+<view class="bottom">
+  <view class="cu-bar bg-white tabbar border shop">
+    <button class="action" open-type="contact">
+      <view class="cuIcon-service text-green">
+        <view class="cu-tag badge"></view>
+      </view>
+      客服
+    </button>
+    <view class="action">
+      <view class="cuIcon-cart">
+        <view class="cu-tag badge">99</view>
+      </view>
+      购物车
+    </view>
+    <view class="bg-orange submit">加入购物车</view>
+    <view class="bg-red submit">立即购买</view>
+  </view>
+</view>

@@ -1,0 +1,83 @@
+.head{
+  width: 100%;
+  height:500rpx;
+}
+.head image{
+  width: 100%;
+  height: 100%;
+}
+.nav{
+  display: flex;
+  justify-content: space-around;
+  margin: 50rpx 0;
+}
+.nav image{
+  width: 150rpx;
+  height: 150rpx;
+}
+
+/* 轮播图 */
+.banner{
+  width: 100%;
+  height: 400rpx;
+}
+.banner image{
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
+.kouhong{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.kouhong image{
+  width: 20%;
+  height: 100rpx;
+  margin:50rpx 0;
+}
+.hot{
+  width: 100%;
+  height: 150rpx;
+  margin: 50rpx 0;
+}
+.hot image{
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
+
+
+
+.show{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.nei{
+  width: 350rpx;
+  height: 500rpx;
+
+}
+.img1{
+  width: 100%;
+  height: 60%; 
+}
+.gang{
+  margin: 50rpx 0;
+}
+.hong{
+  color: red
+}
+.img2{
+  width: 30rpx;
+  height: 30rpx
+}
